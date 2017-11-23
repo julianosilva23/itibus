@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>Itibus</title>
+	<meta name="description" content="A sidebar menu as seen on the Google Nexus 7 website" />
+	<meta name="keywords" content="google nexus 7 menu, css transitions, sidebar, side menu, slide out menu" />
+	<meta name="author" content="Codrops" />
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr.custom.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+	<div class="container">
+		<ul id="gn-menu" class="gn-menu-main">
+			<li class="gn-trigger">
+				<a class="gn-icon gn-icon-menu"><span>Menu</span></a>
+				<nav class="gn-menu-wrapper">
+					<div class="gn-scroller">
+						<ul class="gn-menu">
+
+							<li>
+								<a><i class="fa fa-bus" aria-hidden="false"></i><span class="textosmenus">Ônibus Ativos</span></a>
+							</li>
+							<li>
+								<a class="gn-icon gn-icon-cog">Configurações</a></li>
+								<li>
+									<a class="gn-icon gn-icon-help">Manual</a>
+								</li>	
+								<li>
+									<a><i class="fa fa-credit-card" aria-hidden="false"></i><span class="textosmenus">Meu Cartão</span></a>
+								</li>								
+								<li>
+									<a><i class="fa fa-trash" aria-hidden="false"></i><span class="textosmenus">Limpar Mapa</span></a>
+								</li>	
+							</ul>
+						</div><!-- /gn-scroller -->
+					</nav>
+				</li>
+				<li><a>
+					<img class="logo" src="imagens/onibus.png" width="50" height="60" align="left">
+				Itibus</a></li>
+				<li></li>			
+			</ul>		
+			<header>
+				<h1><span class="gn-search-item">
+					<input placeholder="Search" type="search" class="gn-search">
+					<a class="gn-icon gn-icon-search"><span>Search</span></a>
+				</span>		
+				<ul></ul>
+			</header> 
+		</div><!-- /container -->
+		<script src="js/classie.js"></script>
+		<script src="js/gnmenu.js"></script>
+		<script>
+			new gnMenu( document.getElementById( 'gn-menu' ) );
+		</script>
+		<div class="container">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d115202.61507607854!2d-49.120128728967295!3d-25.535654642181502!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1511398978370" width="1600" height="422" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+	</body>
+	</html>
