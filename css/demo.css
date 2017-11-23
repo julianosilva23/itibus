@@ -31,7 +31,7 @@ body {
 }
 
 .container > header {
-	margin: 0 auto;
+	margin: -37px auto;
 	padding: 6em 2em;
 	padding-left: 500px;
 	padding-bottom: 1px;

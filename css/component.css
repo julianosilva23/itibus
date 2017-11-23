@@ -149,7 +149,7 @@ input.gn-search {
 		font-weight: 300;
 		font-family: 'Lato', Arial, sans-serif;
 		cursor: pointer;
-		padding-bottom: -1px;
+		padding-top: 12px;
 }
 
 /* placeholder */
